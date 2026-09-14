@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Databricks
+.databricks/
+*.dbc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs y temporales
+*.log
+*.tmp
+*.temp
+
+# Credenciales y secretos
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Datos locales
+*.csv
+*.parquet
+*.json
+
+# Archivos temporales de ejecución
+/tmp/
+/temp/
